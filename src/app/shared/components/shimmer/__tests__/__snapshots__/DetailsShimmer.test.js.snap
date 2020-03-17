@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <DetailsShimmer/> should render the default view 1`] = `
+<div
+  className="details-shimmer"
+>
+  <div
+    className="ds__left"
+  >
+    <Shimmer
+      count={1}
+      showImageHolder={true}
+      showLabelsHolder={false}
+    />
+  </div>
+  <div
+    className="ds__right"
+  >
+    <Shimmer
+      count={2}
+      showImageHolder={false}
+      showLabelsHolder={true}
+    />
+  </div>
+</div>
+`;

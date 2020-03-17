@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Shimmer/> should render the different views for different props 1`] = `
+<div
+  className="shimmers-holder"
+>
+  <div
+    className="shimmer__loading"
+    key="0"
+  >
+    <div
+      className="sl__wrapper"
+    >
+      <div
+        className="sl__pic sl__item--animate"
+      />
+      <div
+        className="sl__labels sl__item--animate"
+      />
+      <div
+        className="sl__labels sl__item--animate"
+      />
+    </div>
+  </div>
+  <div
+    className="shimmer__loading"
+    key="1"
+  >
+    <div
+      className="sl__wrapper"
+    >
+      <div
+        className="sl__pic sl__item--animate"
+      />
+      <div
+        className="sl__labels sl__item--animate"
+      />
+      <div
+        className="sl__labels sl__item--animate"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing <Shimmer/> should render the different views for different props 2`] = `
+<div
+  className="shimmers-holder"
+>
+  <div
+    className="shimmer__loading"
+    key="0"
+  >
+    <div
+      className="sl__wrapper"
+    />
+  </div>
+</div>
+`;

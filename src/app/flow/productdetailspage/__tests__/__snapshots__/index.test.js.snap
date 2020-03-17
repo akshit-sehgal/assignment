@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductDetailsPage /> should render the default view 1`] = `
+<div
+  className="products-details-container"
+>
+  <Connect(Header)
+    navigate={[Function]}
+  />
+  <Connect(ProductDetails)
+    id="1"
+  />
+  <Footer />
+</div>
+`;

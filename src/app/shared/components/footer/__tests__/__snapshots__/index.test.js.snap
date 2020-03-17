@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Footer/> should render the default view 1`] = `
+<div
+  className="footer-container"
+>
+  <div
+    className="footer__list-container section-container"
+  >
+    <div
+      className="footer__list"
+      key="About"
+    >
+      <div
+        className="footer__list-head"
+      >
+        About
+      </div>
+      <button
+        className="footer__list-item"
+        key="Contact Us"
+      >
+        Contact Us
+      </button>
+      <button
+        className="footer__list-item"
+        key="About Us"
+      >
+        About Us
+      </button>
+      <button
+        className="footer__list-item"
+        key="Careers"
+      >
+        Careers
+      </button>
+    </div>
+    <div
+      className="footer__list"
+      key="Help"
+    >
+      <div
+        className="footer__list-head"
+      >
+        Help
+      </div>
+      <button
+        className="footer__list-item"
+        key="Payments"
+      >
+        Payments
+      </button>
+      <button
+        className="footer__list-item"
+        key="Shipping"
+      >
+        Shipping
+      </button>
+      <button
+        className="footer__list-item"
+        key="Cancellation & Returns"
+      >
+        Cancellation & Returns
+      </button>
+      <button
+        className="footer__list-item"
+        key="FAQs"
+      >
+        FAQs
+      </button>
+    </div>
+    <div
+      className="footer__list"
+      key="Policy"
+    >
+      <div
+        className="footer__list-head"
+      >
+        Policy
+      </div>
+      <button
+        className="footer__list-item"
+        key="Return Policy"
+      >
+        Return Policy
+      </button>
+      <button
+        className="footer__list-item"
+        key="Terms of Use"
+      >
+        Terms of Use
+      </button>
+      <button
+        className="footer__list-item"
+        key="Security"
+      >
+        Security
+      </button>
+      <button
+        className="footer__list-item"
+        key="Privacy"
+      >
+        Privacy
+      </button>
+    </div>
+    <div
+      className="footer__list"
+      key="Social"
+    >
+      <div
+        className="footer__list-head"
+      >
+        Social
+      </div>
+      <button
+        className="footer__list-item"
+        key="Twitter"
+      >
+        Twitter
+      </button>
+      <button
+        className="footer__list-item"
+        key="Facebook"
+      >
+        Facebook
+      </button>
+      <button
+        className="footer__list-item"
+        key="YouTube"
+      >
+        YouTube
+      </button>
+    </div>
+  </div>
+  <hr />
+  <div
+    className="footer__cr"
+  >
+    Tokopedia. All Rights Reserved © 2020
+  </div>
+</div>
+`;

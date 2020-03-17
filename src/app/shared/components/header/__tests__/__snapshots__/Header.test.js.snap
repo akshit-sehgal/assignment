@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Header/> should call fetchHeaderCarouselData tp fetch data 1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="header__back-holder"
+  />
+  <img
+    alt="Logo"
+    className="header__branding"
+    src=""
+  />
+  <div
+    className="header__name"
+  >
+    Welcome to tokopedia.com!
+  </div>
+</div>
+`;
+
+exports[`Testing <Header/> should render the default view 1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="header__back-holder"
+  >
+    <button
+      className="header__back"
+      onClick={[MockFunction]}
+    >
+      <i
+        className="material-icons"
+      >
+        keyboard_backspace
+      </i>
+      <span>
+        Back
+      </span>
+    </button>
+  </div>
+  <img
+    alt="Logo"
+    className="header__branding"
+    src="https://images.google.com/1.png"
+  />
+  <div
+    className="header__name"
+  >
+    Welcome to tokopedia.com!
+  </div>
+</div>
+`;

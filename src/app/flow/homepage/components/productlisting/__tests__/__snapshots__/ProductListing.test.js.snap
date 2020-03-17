@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductListing /> should render the default view 1`] = `
+<div
+  className="products-container section-container"
+>
+  <div
+    className="products__heading"
+  >
+    All Products
+  </div>
+  <hr />
+  <div
+    className="products__list"
+  >
+    <ProductListItem
+      id={41}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/6/12/2570456/2570456_90794ecf-e3f4-4896-b466-efe108372d5a_720_720.jpg.webp"
+      key="41"
+      name="Product 41"
+      navigate={[Function]}
+      price="1000"
+    />
+    <ProductListItem
+      id={42}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/11/6/5723707/5723707_6ffc1993-cbc3-45d1-8b24-3619c9d39803_1280_1280.webp"
+      key="42"
+      name="Product 42"
+      navigate={[Function]}
+      price="1100"
+    />
+    <ProductListItem
+      id={43}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/10/22/12590409/12590409_0285b3d3-ab8f-41ca-806c-ff2290ca0f96_700_700.webp"
+      key="43"
+      name="Product 43"
+      navigate={[Function]}
+      price="1200"
+    />
+    <ProductListItem
+      id={44}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/10/23/290238/290238_7e65adb0-c425-4558-bf2f-ea876cc43c5d_640_640.jpg.webp"
+      key="44"
+      name="Product 44"
+      navigate={[Function]}
+      price="1300"
+    />
+    <ProductListItem
+      id={45}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/11/27/6041270/6041270_46edf22c-7ac5-4b01-b166-ca9dbd3444be_869_869.jpg.webp"
+      key="45"
+      name="Product 45"
+      navigate={[Function]}
+      price="1400"
+    />
+    <ProductListItem
+      id={46}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/attachment/2019/11/6/157302369912918/157302369912918_6fbb518f-f0fc-4241-96d3-1dca699f4c15.png.webp"
+      key="46"
+      name="Product 46"
+      navigate={[Function]}
+      price="1500"
+    />
+    <ProductListItem
+      id={47}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/6/12/2570456/2570456_90794ecf-e3f4-4896-b466-efe108372d5a_720_720.jpg.webp"
+      key="47"
+      name="Product 47"
+      navigate={[Function]}
+      price="1600"
+    />
+    <ProductListItem
+      id={48}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/11/6/5723707/5723707_6ffc1993-cbc3-45d1-8b24-3619c9d39803_1280_1280.webp"
+      key="48"
+      name="Product 48"
+      navigate={[Function]}
+      price="1700"
+    />
+    <ProductListItem
+      id={49}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/10/22/12590409/12590409_0285b3d3-ab8f-41ca-806c-ff2290ca0f96_700_700.webp"
+      key="49"
+      name="Product 49"
+      navigate={[Function]}
+      price="1800"
+    />
+    <ProductListItem
+      id={50}
+      img="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/10/23/290238/290238_7e65adb0-c425-4558-bf2f-ea876cc43c5d_640_640.jpg.webp"
+      key="50"
+      name="Product 50"
+      navigate={[Function]}
+      price="1900"
+    />
+  </div>
+  <button
+    className="products__more-btn"
+    onClick={[MockFunction]}
+  >
+    Load More
+  </button>
+</div>
+`;
+
+exports[`Testing <ProductListing /> should render the default view 2`] = `
+<div
+  className="products-container section-container"
+>
+  <div
+    className="products__heading"
+  >
+    All Products
+  </div>
+  <hr />
+  <div
+    className="products__list"
+  />
+  <Shimmer
+    count={10}
+    showImageHolder={true}
+    showLabelsHolder={true}
+  />
+  <div
+    className="product__no-more"
+  >
+    Nothing more to show
+  </div>
+</div>
+`;

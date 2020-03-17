@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductListItem /> should render the default view 1`] = `
+<div
+  className="product-list-item"
+  data-id={41}
+  onClick={[MockFunction]}
+>
+  <img
+    className="pli__img"
+    src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/6/12/2570456/2570456_90794ecf-e3f4-4896-b466-efe108372d5a_720_720.jpg.webp"
+  />
+  <div
+    className="pli__description"
+  >
+    <div
+      className="pli__name"
+    >
+      Product 41
+    </div>
+    <div
+      className="pli__price"
+    >
+      Rs. 1000 /-
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductImage /> should render the default view 1`] = `
+<img
+  alt="Product Image"
+  className="pd__image"
+  src="https://images.google.com/1.png"
+/>
+`;

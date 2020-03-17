@@ -1,0 +1,50 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    height: 40px;
+    box-shadow: 0 0 5px -1px #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    .header__back-holder {
+        width: 80px;
+        margin-right: 20px;
+
+        .header__back {
+            padding: 5px 8px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            border: 1px solid #fff;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #fff;
+                color: #000;
+            }
+
+            .material-icons {
+                font-size: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .header__branding {
+        width: 150px;
+        display: block;
+    }
+
+    .header__name {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+}

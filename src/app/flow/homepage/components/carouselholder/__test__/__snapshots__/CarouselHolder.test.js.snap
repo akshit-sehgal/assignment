@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <CarouselHolder /> should render the default view 1`] = `
+<div
+  className="carousel-container"
+>
+  <Carousel
+    additionalTransfrom={0}
+    arrows={true}
+    autoPlay={true}
+    autoPlaySpeed={3000}
+    centerMode={true}
+    className=""
+    containerClass=""
+    customLeftArrow={
+      <CustomArrow
+        cssClass="carousel__btn--left"
+        iconClass="keyboard_arrow_left"
+      />
+    }
+    customRightArrow={
+      <CustomArrow
+        cssClass="carousel__btn--right"
+        iconClass="keyboard_arrow_right"
+      />
+    }
+    dotListClass="carousel__dot-list"
+    draggable={true}
+    focusOnSelect={false}
+    infinite={true}
+    itemClass="carousel__item"
+    keyBoardControl={true}
+    minimumTouchDrag={80}
+    renderButtonGroupOutside={false}
+    renderDotsOutside={true}
+    responsive={
+      Object {
+        "desktop": Object {
+          "breakpoint": Object {
+            "max": 4000,
+            "min": 100,
+          },
+          "items": 1,
+        },
+      }
+    }
+    showDots={true}
+    sliderClass=""
+    slidesToSlide={1}
+    ssr={true}
+    swipeable={true}
+    transitionDuration={1000}
+  >
+    <div
+      className="carousel__item-wrapper"
+      key="Banner 1"
+    >
+      <img
+        className="carousel__item-img"
+        src="https://ecs7.tokopedia.net/img/banner/2019/12/18/77927732/77927732_1af4050a-a288-4a9c-8416-b8091be33377.jpg"
+      />
+      <div
+        className="carousel__item-title"
+      >
+        Banner 1
+      </div>
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="Banner 2"
+    >
+      <img
+        className="carousel__item-img"
+        src="https://ecs7.tokopedia.net/img/banner/2019/12/18/61130029/61130029_0b72b92b-9a57-4de9-b12a-1a785dcdc2b7.jpg"
+      />
+      <div
+        className="carousel__item-title"
+      >
+        Banner 2
+      </div>
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="Banner 3"
+    >
+      <img
+        className="carousel__item-img"
+        src="https://ecs7.tokopedia.net/img/banner/2019/12/13/77927732/77927732_d75f8b70-9cba-4022-a45b-6df2ef6c2ec6.jpg"
+      />
+      <div
+        className="carousel__item-title"
+      >
+        Banner 3
+      </div>
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="Banner 4"
+    >
+      <img
+        className="carousel__item-img"
+        src="https://ecs7.tokopedia.net/img/banner/2019/12/18/77927732/77927732_a32d5467-a70e-499b-b636-7e2b8c74ef9a.jpg"
+      />
+      <div
+        className="carousel__item-title"
+      >
+        Banner 4
+      </div>
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="Banner 5"
+    >
+      <img
+        className="carousel__item-img"
+        src="https://ecs7.tokopedia.net/img/banner/2019/12/18/77927732/77927732_344b9d74-50e5-4823-8fa1-2a5792af09c1.jpg"
+      />
+      <div
+        className="carousel__item-title"
+      >
+        Banner 5
+      </div>
+    </div>
+  </Carousel>
+</div>
+`;
+
+exports[`Testing <CarouselHolder /> should render the default view 2`] = `
+<button
+  className="carousel__btn carousel__btn--right"
+>
+  <i
+    className="material-icons"
+  >
+    keyboard_arrow_right
+  </i>
+</button>
+`;
+
+exports[`Testing <CarouselHolder /> should render the default view 3`] = `
+<div
+  className="carousel-container"
+>
+  <Carousel
+    additionalTransfrom={0}
+    arrows={true}
+    autoPlay={true}
+    autoPlaySpeed={3000}
+    centerMode={true}
+    className=""
+    containerClass=""
+    customLeftArrow={
+      <CustomArrow
+        cssClass="carousel__btn--left"
+        iconClass="keyboard_arrow_left"
+      />
+    }
+    customRightArrow={
+      <CustomArrow
+        cssClass="carousel__btn--right"
+        iconClass="keyboard_arrow_right"
+      />
+    }
+    dotListClass="carousel__dot-list"
+    draggable={true}
+    focusOnSelect={false}
+    infinite={true}
+    itemClass="carousel__item"
+    keyBoardControl={true}
+    minimumTouchDrag={80}
+    renderButtonGroupOutside={false}
+    renderDotsOutside={true}
+    responsive={
+      Object {
+        "desktop": Object {
+          "breakpoint": Object {
+            "max": 4000,
+            "min": 100,
+          },
+          "items": 1,
+        },
+      }
+    }
+    showDots={true}
+    sliderClass=""
+    slidesToSlide={1}
+    ssr={true}
+    swipeable={true}
+    transitionDuration={1000}
+  >
+    <div
+      className="carousel__item-wrapper"
+      key="0"
+    >
+      <img
+        className="carousel__item-img"
+        src=""
+      />
+      <div
+        className="carousel__item-title"
+      />
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="1"
+    >
+      <img
+        className="carousel__item-img"
+        src=""
+      />
+      <div
+        className="carousel__item-title"
+      />
+    </div>
+    <div
+      className="carousel__item-wrapper"
+      key="2"
+    >
+      <img
+        className="carousel__item-img"
+        src=""
+      />
+      <div
+        className="carousel__item-title"
+      />
+    </div>
+  </Carousel>
+</div>
+`;

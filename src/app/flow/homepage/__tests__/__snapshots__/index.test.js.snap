@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <HomePage /> should render the default view 1`] = `
+<div
+  className="homepage-container"
+>
+  <Connect(Header) />
+  <Connect(CarouselHolder) />
+  <Connect(ProductListing)
+    navigate={[Function]}
+  />
+  <Footer />
+</div>
+`;

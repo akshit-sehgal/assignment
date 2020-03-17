@@ -1,0 +1,30 @@
+.pd__info-container {
+    .pf__info-table {
+        .pf__table-row {
+            td {
+                padding: 10px 5px;
+                vertical-align: top;
+
+                &:first-child {
+                    width: 120px;
+                    font-weight: 700;
+                }
+
+                &.pd__desc {
+                    font-size: 15px;
+                    padding: 10px;
+                    border: 2px solid #000;
+                    border-radius: 5px;
+                    text-align: center;
+                }
+                &.pd__rating{
+                    .material-icons{
+                        font-size:24px;
+                        color:#00796B;
+                    }
+                }
+            }
+
+        }
+    }
+}

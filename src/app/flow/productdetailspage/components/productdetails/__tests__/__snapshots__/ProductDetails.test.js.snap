@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductDetails /> should render the default view 1`] = `
+<div
+  className="product-details section-container"
+>
+  <div
+    className="pd__heading"
+  >
+    Product Details
+  </div>
+  <div
+    className="pd__left-panel"
+  >
+    <ProductImage
+      imgSrc="https://images.google.com/1.png"
+    />
+  </div>
+  <div
+    className="pd__right-panel"
+  >
+    <ProductInfo
+      description="Product Description"
+      id="1"
+      img="https://images.google.com/1.png"
+      name="Product 1"
+      price="Rs 2000"
+      rating={4}
+    />
+  </div>
+</div>
+`;
+
+exports[`Testing <ProductDetails /> should render the default view 2`] = `
+<div
+  className="product-details section-container"
+>
+  <div
+    className="pd__heading"
+  >
+    Product Details
+  </div>
+  <DetailsShimmer />
+</div>
+`;

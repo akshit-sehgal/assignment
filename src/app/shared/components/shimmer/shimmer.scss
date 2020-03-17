@@ -1,0 +1,45 @@
+.shimmers-holder {
+    display: flex;
+    flex-wrap: wrap;
+    .shimmer__loading {
+        box-shadow: 0px 0px 5px 0 #a9a9a9;
+        width: 160px;
+        height: 205px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin: 5px;
+        .sl__wrapper {
+            width: 100%;
+
+            .sl__pic {
+                height: 160px;
+            }
+
+            .sl__labels {
+                height: 10px;
+                background: #777;
+                margin: 7.5px 5px;
+
+                &:last-child {
+                    width: 60%;
+                }
+            }
+
+            .sl__item--animate {
+                animation: shimmer 2s infinite linear;
+                background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+                background-size: 1000px 100%;
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -1000px 0;
+            }
+
+            100% {
+                background-position: 1000px 0;
+            }
+        }
+    }
+}

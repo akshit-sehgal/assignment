@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <ProductImage /> should render the default view 1`] = `
+<div
+  className="pd__info-container"
+>
+  <table
+    className="pf__info-table"
+  >
+    <tbody>
+      <tr
+        className="pf__table-row"
+      >
+        <td>
+          Product Name
+        </td>
+        <td>
+          Product 1
+        </td>
+      </tr>
+      <tr
+        className="pf__table-row"
+      >
+        <td>
+          Rating
+        </td>
+        <td
+          className="pd__rating"
+        >
+          <StarRating
+            count={4}
+          />
+        </td>
+      </tr>
+      <tr
+        className="pf__table-row"
+      >
+        <td>
+          Price
+        </td>
+        <td>
+          Rs 2000 /-
+        </td>
+      </tr>
+      <tr
+        className="pf__table-row"
+      >
+        <td>
+          Description
+        </td>
+        <td
+          className="pd__desc"
+        >
+          Product Description
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Testing <ProductImage /> should render the default view 2`] = `
+Array [
+  <i
+    className="material-icons"
+    key="0"
+  >
+    star
+  </i>,
+  <i
+    className="material-icons"
+    key="1"
+  >
+    star
+  </i>,
+  <i
+    className="material-icons"
+    key="2"
+  >
+    star
+  </i>,
+  <i
+    className="material-icons"
+    key="3"
+  >
+    star
+  </i>,
+]
+`;
