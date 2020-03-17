@@ -4,22 +4,16 @@ Screenshots of the application: [./screenshots](./screenshots)
 
 Steps to setup the repository
 1. Install dependencies
-
 `npm install`
 
 2. Select the desired option
    * For Production Build & Server
-    
     `npm start` or `npm run start-server-prod`
 
 Open http://localhost:3000 using a web browser.
-   
    * For Client App Development with webpack-dev-server
-    
     `npm run start-client-dev`
-   
    * For runnning unit test cases
-    
     `npm run test`
 
 Tested on: Node.js (v 8.11.3), Chrome (v 80.0.3987), Firefox (v 74.0)
