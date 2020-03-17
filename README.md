@@ -6,6 +6,7 @@ Steps to setup the repository
 1. Install dependencies
 
 `npm install`
+
 2. Select the desired option
    * For Production Build & Server
     
