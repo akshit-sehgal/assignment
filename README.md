@@ -1,6 +1,7 @@
 ### Usage
 ---
 Screenshots of the application: [./screenshots](./screenshots)
+
 Steps to setup the repository
 1. Install dependencies
 ```npm install```
